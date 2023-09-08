@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "locust-testing"
+version = "0.1.0"
+description = ""
+authors = ["Benjamin SOLANO <benjamin.solano@devoteamgcloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+locust = "^2.16.1"
+google-auth = "^2.22.0"
+faker = "^19.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
